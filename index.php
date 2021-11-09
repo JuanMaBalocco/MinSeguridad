@@ -2,8 +2,7 @@
     include 'includes/header.php';
 ?>
 
-echo 'hola mundo';
-echo '<p>GENIAL</p>'
+<p>hola mundo</p>
 
 <?php
     include 'includes/footer.php';

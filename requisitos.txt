@@ -1,0 +1,25 @@
+Listado de requisitos del sistema.
+
+1 - Login y Pagina Principal
+1.1 - Funcion del Login
+
+2 - Como Agente Quiero Registrar datos de los operativos
+2.1 - Listado de operativos
+2.2 - Pantalla de Carga de Operativos
+
+3 - Como Agente Quiero visualizar listados de detenidos (ABM)
+3.1 - Listado de Detenidos
+3.2 - Pantalla de Carga de Detenidos
+3.3 - Asignar Detenido a Comisaria
+
+4 - Como Agente Quiero Cargar Agentes y Comisarios (ABM)
+4.1 - Listado de Agentes y Rangos
+4.2 - Pantalla de Carga de Agentes
+
+5 - Como Agente Quiero Cargar los Vehiculos (ABM)
+5.1 - Listado de Vehiculos
+5.2 - Pantalla de Carga de Vehiculos
+
+6 - Listado de Comisarias
+6.1 - Ocupacion de la Comisaria (en detenidos)
+6.2 - Pantalla de Carga de Comisarias
