@@ -1,0 +1,3 @@
+Una vez que clonaron el repositorio y levantaron la base de datos, deben ingresar  el SERVIDOR_DB,USERNAME_DB,PASSWORD_DB,PORT.
+ESTOS DATOS SE CARGAN EN LA SIGUIENTE RUTA:
+config\environment.php

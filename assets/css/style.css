@@ -1,0 +1,151 @@
+/* COLORES PROPIOS */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-backblack {
+    color: rgba();
+    
+}
+
+.color-bluecat {
+    background-color: #4F9EC8;
+}
+
+.color-bluecat-op {
+    background-color: #4f9ec8ee;
+}
+
+.color-backgray {
+    background-color: #eeeeee;
+}
+
+.color-backgray-anim {
+    background-color: #f8f8f8;
+    color: #4F9EC8;
+}
+
+.color-backgray-anim:hover {
+    background-color: #cee5ff;
+    border-color: #2479a7;
+    color: #ffffff;
+}
+
+.color-greensuc {
+    background-color: #198754;
+}
+
+.text-bluecat {
+    color: #4F9EC8;
+}
+
+.tarje-main {
+    max-height: 508px;
+    max-width: 404px;
+    min-height: 450px;
+    min-width: 120px;
+}
+
+.tarje-regcivil {
+    background-image: url("../img/regicon.jpg");
+}
+
+.tarje-regcivil:hover {
+    background-image: url("../img/regiconh.jpg");
+}
+
+.tarje-segminis {
+    background-image: url("../img/segicon.jpg");
+}
+
+.tarje-segminis:hover {
+    background-image: url("../img/segiconh.jpg");
+}
+
+.tarje-salminis {
+    background-image: url("../img/salicon.jpg");
+}
+
+.tarje-salminis:hover {
+    background-image: url("../img/saliconh.jpg");
+}
+
+.body-login {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 240px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    border-radius: 10px;
+    background-color: #4F9EC8;
+}
+
+#register .container #register-row {
+    margin-bottom: 50px;
+    padding: 0 30px 30px 30px;
+    max-width: 620px;
+    border: 1px solid #585858;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*----PARTIDAS-----*/
+.hide{
+    display: none;
+}
+/* MODALES */
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+
+.window-notice #map {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 600px;
+    max-width: 600px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+@media(max-width:568px) {
+    .window-notice #map {
+        
+        height: 300px;
+        max-width: 200px;
+        min-width: 220px !important;
+       
+    }
+}
+
+
