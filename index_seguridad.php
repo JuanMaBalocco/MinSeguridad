@@ -9,7 +9,7 @@ include_once('./template/header.php');
         <div class="col d-flex align-items-center">
             <img class="me-3" src="<?php echo img ?>princicon.png" alt="" width="48" height="48">
             <div class="lh-1">
-                <h1 class="h5 mb-0 text-white lh-1 animate__animated animate__headShake">Ministerio de Seguridad</h1>
+                <h1 class="h5 mb-0 text-white lh-1 animate__animated animate__headShake">Ministerios y Tramites</h1>
                 <h6 class="animate__animated animate__headShake">Gobierno de Catamarca</h6>
             </div>
         </div>
@@ -23,13 +23,16 @@ include_once('./template/header.php');
             <div class="col-12">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active color-backgray-anim" href="index.php">INICIO</a>
+                        <a class="nav-link color-backgray-anim" href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link color-backgray-anim" href="404.php">CONSULTAS</a>
+                        <a class="nav-link active color-backgray-anim" href="index_seguridad.php">Ministerio de Seguridad</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link color-backgray-anim" href="404.php">AGENTES</a>
+                        <a class="nav-link color-backgray-anim" href="404.php">Tramites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-backgray-anim" href="404.php">Cuenta</a>
                     </li>
                 </ul>
                 <br>
@@ -46,20 +49,20 @@ include_once('./template/header.php');
             <div class="col ">
 
                 <div class="regimag">
-            
+
                 </div>
 
             </div>
             <div class="col-4">
 
-                <div class="logimag">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                <div class="card">
+
+                    <h5 class="card-header bg-danger text-white "><i class="fas fa-exclamation-circle"></i> Carga de detenidos</h5>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-warning text-white">Cargar</a>
+
+                    </div>
                 </div>
 
             </div>
@@ -73,11 +76,10 @@ include_once('./template/header.php');
                 <div class="card">
                     <div class="card-body">
                         <div class="card-header color-bluecat-op text-white">
-                            <h5 class="text-center align-center">Registro de Agentes</h5>
+                            <h5 class="text-center align-center">Registrar Comisarios y Agentes</h5>
                         </div>
-                        <img src="assets/img/info1.jpg" alt="" class="card-img">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum optio commodi quas impedit vitae eaque reprehenderit eius ut et.</p>
-                        
+                        <a href="registrar_agentes.php" class="btn btn-info text-white col-12">Cargar</a>
                     </div>
                 </div>
             </div>
@@ -85,11 +87,10 @@ include_once('./template/header.php');
                 <div class="card">
                     <div class="card-body">
                         <div class="card-header color-bluecat-op text-white">
-                            <h5 class="text-center align-center">Comisarias 2.0</h5>
+                            <h5 class="text-center align-center">Listado de Comisarias</h5>
                         </div>
-                        <img src="assets/img/info2.jpg" alt="" class="card-img">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum optio commodi quas impedit vitae eaque reprehenderit eius ut et.</p>
-                        
+                        <a href="listado_personas.php" class="btn btn-info text-white col-12">Ver</a>
                     </div>
                 </div>
             </div>
@@ -97,17 +98,14 @@ include_once('./template/header.php');
                 <div class="card">
                     <div class="card-body">
                         <div class="card-header color-bluecat-op text-white">
-                            <h5 class="text-center align-center">Controles Vehiculares</h5>
+                            <h5 class="text-center align-center">Vehiculos</h5>
                         </div>
-                        <img src="assets/img/info3.jpg" alt="" class="card-img">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum optio commodi quas impedit vitae eaque reprehenderit eius ut et.</p>
-                        
+                        <a href="consultar_partidas.php" class="btn btn-info text-white col-12">Consultar disponibilidad</a>
                     </div>
                 </div>
             </div>
         </div>
-
-        
     </div>
 </div>
 <?php

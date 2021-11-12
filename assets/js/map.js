@@ -18,11 +18,28 @@ function seleccionarUbicacion(){
      if(controlesMapa){
          //Creamos el btn Seleccionar Coordenadas
          const btnSeleccionar = document.createElement('button');
+<<<<<<< HEAD
          btnSeleccionar.setAttribute("id","btnSeleccionarCoordenada");
          btnSeleccionar.setAttribute("class","btn btn-success");
          btnSeleccionar.innerHTML = 'Seleccionar';
          //Agregamos el boton al div  con la clase map-controllers
          controlesMapa.appendChild(btnSeleccionar);
+=======
+         const btnCancelar = document.createElement('button');
+         btnSeleccionar.setAttribute("id","btnSeleccionarCoordenada");
+         btnCancelar.setAttribute("id","btnCancelarCoordenada");
+
+         btnSeleccionar.setAttribute("class","me-5 btn btn-success");
+         btnCancelar.setAttribute("class","btn btn-danger");
+
+         btnSeleccionar.innerHTML = 'Seleccionar';
+         btnCancelar.innerHTML = 'Cancelar';
+
+         //Agregamos el boton al div  con la clase map-controllers
+         controlesMapa.appendChild(btnSeleccionar);
+         controlesMapa.appendChild(btnCancelar);
+
+>>>>>>> 1d418b13b9e71f69b90b2131c57aa2ebdbba2b9f
      }
 
      let popup = L.popup();
@@ -37,21 +54,53 @@ function seleccionarUbicacion(){
             document.querySelector(`[name=latitud`).value = e.latlng.lat.toString();
             document.querySelector(`[name=longitud]`).value = e.latlng.lng.toString()
             //Removemos el botón que ya no necesitamos 
+<<<<<<< HEAD
             btnSeleccionarCoordenada.remove();
+=======
+            document.querySelector('#btnSeleccionarCoordenada').remove();
+            document.querySelector('#btnCancelarCoordenada').remove();
+>>>>>>> 1d418b13b9e71f69b90b2131c57aa2ebdbba2b9f
             //Removemos el mapa
             map.remove();
             //Cerramos la ventana emergente
             mostrarPopUps();
 
         })
+<<<<<<< HEAD
         
     });
+=======
+
+
+
+
+     
+        
+    });
+
+    
+    document.querySelector('#btnCancelarCoordenada').addEventListener('click',function(){
+            
+        document.querySelector('#btnSeleccionarCoordenada').remove();
+        document.querySelector('#btnCancelarCoordenada').remove();
+
+        //Removemos el mapa
+        map.remove();
+        //Cerramos la ventana emergente
+        mostrarPopUps();
+
+    })
+>>>>>>> 1d418b13b9e71f69b90b2131c57aa2ebdbba2b9f
 }
 
 //PERFIL
 
 function verCoordenadas(){
+<<<<<<< HEAD
  
+=======
+    console.log('entre')
+>>>>>>> 1d418b13b9e71f69b90b2131c57aa2ebdbba2b9f
     const lat = parseFloat(document.querySelector('#latitud').textContent);
     const long = parseFloat(document.querySelector('#longitud').textContent);
     let map = L.map('mapPerfil').setView([lat,long],12);
