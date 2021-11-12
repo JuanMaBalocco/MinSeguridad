@@ -1,4 +1,6 @@
-<?php include_once './admin/funciones/funciones.php';
+<?php
+
+include_once './admin/funciones/funciones.php';
 include_once './config/config.php';
 include_once('./template/header.php');
 
